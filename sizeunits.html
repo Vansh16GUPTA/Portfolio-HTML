@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>font size units</title>
+    <style>
+        html{
+            font-size: 20px;
+        }
+        .container{
+            border: 2px solid red;
+            font-size: 10px;
+            height: 100vh;/*it takes the full height of the page*/
+            width: 100vw;/*it takes the full width of the page*/
+        }
+        h1{
+            text-align: center;
+        }
+        #first{
+            font-size: 3em;/*3 times the fone size of class container*/
+            padding: 3em;/*3 times the font size of first h1*/
+        }
+        #second{
+            font-size: 3rem;/*3 times the font size of html*/
+            padding: 3rem;/*3 times the font size of html*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <h1 id="first">this is first heading</h1>
+         <h1 id="second">this is second heading</h1>
+         <h1 id="third">this is third heading</h1>
+    </div>
+</body>
+</html>

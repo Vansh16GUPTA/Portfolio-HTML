@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            border: 2px solid green;
+            background-color: crimson;
+            box-shadow: 7px 10px 10px blue;/*third radius is blurred radius*/
+        }
+        .card h2{
+            text-shadow: 4px 5px 3px green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>this is python course</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veniam odit earum iure tenetur dolores eos. Qui, facilis officia. Ullam beatae minima cupiditate.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>this is html course</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam accusantium impedit laboriosam vel, distinctio recusandae adipisci quidem quia harum voluptatem in illum quam?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>this is css course</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur error ab. Ea, tempora! Beatae aliquam veniam ex nostrum illum, modi tempora obcaecati.</p>
+        </div>
+    </div>
+</body>
+</html>
